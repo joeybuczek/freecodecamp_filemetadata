@@ -1,6 +1,6 @@
 // modules
 var express = require('express');
-var multer = "";
+var multer = ""; // routes are working... now install multer 2-21-16
 
 // routes
 var routes = require('./routes');
