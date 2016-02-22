@@ -16,6 +16,7 @@
   "author": "Joey Buczek <joe.buczek@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
   }
 }
