@@ -10,6 +10,11 @@ var app = express();
 // use routes
 app.use('/', routes);
 
+// 404 errors
+app.use(function(req, res){
+    res.send('404 - Sorry, cannot be found.');
+});
+
 // listen
 var port = process.env.PORT || 3000;
 app.listen(port, function() {

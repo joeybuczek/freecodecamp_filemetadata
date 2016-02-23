@@ -15,7 +15,9 @@ router.get('/', function (req, res) {
 // post route
 router.post('/', upload.single('fileUpload'), function (req, res) {
     // output metadata
-    res.json({originalname: req.file.originalname, mimetype: req.file.mimetype, filesize: req.file.size});
+    res.json({originalname: req.file.originalname, 
+              mimetype: req.file.mimetype, 
+              filesize: req.file.size});
 });
 
 // html
